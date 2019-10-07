@@ -104,11 +104,10 @@ class LinkedList {
 				counter += 1;
 			}
 		}
-
 	}
 
 	reverse() {
-		let current = this._head;
+		/*let current = this._head;
 		let previous = null;
 		while (current) {
 			let next = current.next;
@@ -118,7 +117,7 @@ class LinkedList {
 			current = previous;
 		}
 		this._tail = this._head;
-		this._head = previous;
+		this._head = previous;*/
 	}
 
 	indexOf(data) {
